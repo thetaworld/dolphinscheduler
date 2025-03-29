@@ -23,8 +23,8 @@ const modules = import.meta.glob('/src/views/**/**.tsx')
 const components: { [key: string]: Component } = utils.mapping(modules)
 
 export default {
-  path: '/ui-setting',
-  name: 'ui-setting',
+  path: '/ui-setting1',
+  name: 'ui-setting1',
   meta: { title: '设置' },
   component: () => import('@/layouts/content'),
   children: [
